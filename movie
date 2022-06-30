@@ -1,0 +1,9 @@
+movie.db;
+CREATE TABLE movie(movie_name text,actor text,actoress text,director text,year_of_release integer NOT NULL);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('don','siva','priya','chakrabathi',2022,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('kathi','vijaykumar','sam','murugadoss',2010,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('singam','suryaa','anushka','shiv',2011,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('mankatha','ajith','trisha','venkat',2009,);
+//for query
+SELECT * FROM movies;
+SELECT movie FROM movies WHERE actor='suryaa';
